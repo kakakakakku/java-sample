@@ -1,6 +1,7 @@
 package com.circleci.demojavaspring;
 
 import org.junit.Test;
+import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
@@ -15,7 +16,7 @@ public class DemoJavaSpringApplicationTests {
 
     @Test
     public void contextLoads() {
-
+        assertTrue(false);
     }
 
 }
